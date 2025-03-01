@@ -1,9 +1,7 @@
 # Serverless Architecture on AWS: A Guide
 
 **Introduction:**
-Welcome to the guide on setting up a serverless architecture on AWS. This README provides an overview of the steps outlined in the blog titled [Serverless Architecture on AWS](https://kevinkiruri.medium.com/serverless-architecture-on-aws-be3d6bd13f9a) by [Kevin Kiruri](https://www.linkedin.com/in/kevin-kiruri/).
-
-## Steps
+Welcome to the guide on setting up a serverless architecture on AWS. 
 1. **Creating an S3 Bucket**: Set up an S3 bucket to store data files.
 2. **Creating a DynamoDB Table**: Establish a DynamoDB table to store inventory data.
 3. **Creating an SNS Topic**: Create an SNS topic for sending notifications.
@@ -26,6 +24,3 @@ You can create a CloudFormation template to create the above infrasture in the c
 
 Implementing serverless architecture on AWS enables efficient handling of various business use cases, such as inventory management. By leveraging AWS services like S3, DynamoDB, SNS, and Lambda, you can automate processes and streamline workflows. Serverless architecture empowers systems to respond dynamically to events, enhancing agility and scalability in cloud environments.
 
----
-
-*Author: [Kevin Kiruri](https://www.linkedin.com/in/kevin-kiruri/)*

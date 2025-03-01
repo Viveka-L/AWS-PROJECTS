@@ -2,8 +2,7 @@
 
 ## Introduction
 
-Welcome to the AWS App Deployment Guide, your comprehensive resource for building and managing a robust AWS environment. This guide is structured into four key sections, each delving into a crucial aspect of AWS infrastructure. This README provides a summary of the steps outlined in the [full article](https://medium.com/@kevinkiruri/deploy-a-web-application-on-aws-using-an-auto-scaling-group-bdec934c47e7), authored by [Kevin Kiruri](https://www.linkedin.com/in/kevin-kiruri/).
-
+Welcome to the AWS App Deployment Guide, your comprehensive resource for building and managing a robust AWS environment. This guide is structured into four key sections, each delving into a crucial aspect of AWS infrastructure.
 ## Network – Amazon VPC
 
 **Amazon Virtual Private Cloud (VPC** is your network's foundation. In this section, you'll learn to craft a secure and isolated network environment. Key steps include:
@@ -41,8 +40,3 @@ Effective resource management is crucial. In the clean-up section, you'll discov
 
 By following this guide, you'll gain a solid understanding of AWS infrastructure. Whether you're setting up a new environment, optimizing an existing one, or simply learning the ropes, this repository provides the knowledge and tools you need for secure, efficient, and scalable AWS infrastructure. Remember to follow best practices for security and cost management when working with AWS resources. Happy deploying!
 
-For a comprehensive walkthrough, please visit the full blog post: [Deploy a Web Application on AWS using an Auto Scaling Group](https://medium.com/@kevinkiruri/deploy-a-web-application-on-aws-using-an-auto-scaling-group-bdec934c47e7).
-
----
-
-*Author: [Kevin Kiruri](https://www.linkedin.com/in/kevin-kiruri/)*

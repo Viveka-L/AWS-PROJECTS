@@ -1,6 +1,6 @@
 # README: Scheduling EC2 Instances for Off-Hours
 
-Welcome to the quick guide on how to schedule EC2 Instances for Off-Hours. This README provides a summary of the steps outlined in the [full article](https://medium.com/@kevinkiruri/saving-costs-with-precision-scheduling-ec2-instances-for-off-hours-348e7a13096f), authored by [Kevin Kiruri](https://www.linkedin.com/in/kevin-kiruri/).
+Welcome to the quick guide on how to schedule EC2 Instances for Off-Hours. 
 
 ## :rocket: Introduction
 
@@ -37,8 +37,3 @@ Follow these steps to schedule your EC2-innstances for off hours:
 
 Automating the start and stop of EC2 instances through Lambda functions and scheduling is an effective cost-saving strategy. Thank you for joining me on this journey to optimize AWS costs and streamline operations; let's continue learning and innovating together. 
 
-For more details and a complete walkthrough, please refer to the original article: [Saving Costs with Precision: Scheduling EC2 Instances for Off-Hours](https://medium.com/@kevinkiruri/saving-costs-with-precision-scheduling-ec2-instances-for-off-hours-348e7a13096f).
-
----
-
-*Author: [Kevin Kiruri](https://www.linkedin.com/in/kevin-kiruri/)*

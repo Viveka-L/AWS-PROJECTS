@@ -4,16 +4,14 @@ Welcome to the Serverless Web App Project! This README provides you with all the
 
 ## :rocket: Introduction
 
-Our project allows you to create a serverless web application that calculates the area of a rectangle based on user-provided length and width values. This README serves as a quick guide, but the full details and a step-by-step tutorial can be found [here](https://medium.com/@kevinkiruri/serverless-web-app-development-made-easy-a-complete-guide-with-aws-amplify-dynamodb-lambda-and-052daf5b978d), authored by [Kevin Kiruri](https://www.linkedin.com/in/kevin-kiruri/).
-
+Our project allows you to create a serverless web application that calculates the area of a rectangle based on user-provided length and width values. 
 ## :scroll: Quick Start
 
 Follow these steps to get your serverless web app up and running:
 
 1. **Prerequisites**
 
-   - Have an AWS account. If you don't have one, you can sign up [here](https://aws.amazon.com/).
-   - Access the project files from [Amplify Web-app](https://github.com/Kevin-byt/AWS-Projects/tree/main/Amplify).
+   - Have an AWS account.
 
 2. **Creating the Front-end**
 
@@ -57,11 +55,3 @@ Here are the key files in this project:
 ## :tada: Conclusion
 
 With the steps outlined above, you can easily create your own serverless web application for calculating the area of a rectangle. Enjoy the simplicity, speed, and cost-effectiveness of AWS Amplify, Lambda, DynamoDB, and API Gateway.
-
-For a detailed walkthrough and complete instructions, please refer to the full tutorial [Serverless Web App Development Made Easy: A Complete Guide with AWS Amplify, DynamoDB, Lambda and API Gateway](https://medium.com/@kevinkiruri/serverless-web-app-development-made-easy-a-complete-guide-with-aws-amplify-dynamodb-lambda-and-052daf5b978d).
-
-If you have any questions, suggestions, or would like to collaborate on this project, please don't hesitate to reach out. We welcome your contributions to make this project even better!
-
----
-
-*Author: [Kevin Kiruri](https://www.linkedin.com/in/kevin-kiruri/)*

@@ -15,7 +15,7 @@ Before you begin, make sure you have the following prerequisites installed:
 1. Clone this repository to your local machine:
 
    ```shell
-   git clone https://github.com/Kevin-byt/AWS-Projects.git
+   git clone https://github.com/Viveka-L-byt/AWS-Projects.git
    cd AWS-Projects/Lambda/Start-Stop-EC2/IaC/terraform
    ```
 

@@ -1,14 +1,5 @@
 AWSTemplateFormatVersion: "2010-09-09"
-
 Description: AWS CloudFormation workshop - Dynamic references - Lambda memory size (uksb-1q9p31idr) (tag:dynamic-references).
-
-Metadata:
-  cfn-lint:
-    config:
-      ignore_checks:
-        - E3012
-        - E3034
-
 Resources:
   FunctionExecutionRole:
     Type: AWS::IAM::Role
@@ -16,25 +7,13 @@ Resources:
       AssumeRolePolicyDocument:
         Statement:
           - Action:
-              - sts:AssumeRole
+            - sts:AssumeRole
             Effect: Allow
             Principal:
               Service:
-                - lambda.amazonaws.com
-        Version: "2012-10-17"
+              - lambda.amazonaws.com
+        Version: 2012-10-17
       ManagedPolicyArns:
         - !Sub 'arn:${AWS::Partition}:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole'
       Path: /
-
-  HelloWorldFunction:
-    Type: AWS::Lambda::Function
-    Properties:
-      Role: !GetAtt FunctionExecutionRole.Arn
-      Handler: index.handler
-      Runtime: python3.9
-      MemorySize: '{{resolve:ssm:/lambda/memory-size:1}}'
-      Code:
-        ZipFile: |
-          import os
-          def handler(event, context):
-              return "Hello World!"
+  ## Lambda Resource Goes Here

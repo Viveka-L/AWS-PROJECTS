@@ -27,5 +27,4 @@ Resources:
 Outputs:
   WebServerInstanceProfile:
     Value: !Ref WebServerInstanceProfile
-    Export:
-      Name: cfn-workshop-WebServerInstanceProfile
+    # Copy the code from "1. Prepare the IAM role template" here

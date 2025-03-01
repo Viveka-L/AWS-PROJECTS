@@ -6,8 +6,10 @@ Resources:
   SqsQueue:
     Type: AWS::SQS::Queue
     Properties:
-      DelaySeconds: 900
-      Tags:
+      # Use `cfn-lint` to find issues on this example template, and
+      # then fix issues you found
+      DelaySeconds: 1000
+      Tag:
         - Key: Name
           Value: workshop-sqs-queue
         - Key: ProjectName
@@ -20,4 +22,4 @@ Outputs:
 
   SqsQueueName:
     Description: The name of your Amazon SQS Queue
-    Value: !GetAtt SqsQueue.QueueName
+    Value: !GetAtt SqsQueue.Name

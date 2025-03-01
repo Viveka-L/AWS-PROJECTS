@@ -17,7 +17,6 @@ Our goal is to:
 
 ---
 
-📖 **Full Blog Post**: For a detailed, step-by-step walkthrough of this project, you can refer to the [full blog post](https://medium.com/@kevinkiruri/setting-up-a-continuous-deployment-pipeline-on-aws-2da40b519f69), authored by [Kevin Kiruri](https://www.linkedin.com/in/kevin-kiruri/) that covers each aspect comprehensively.
 
 ---
 
@@ -45,14 +44,7 @@ Automation can seem daunting until you witness its magic. In the final part of o
 
 ---
 
-📖 **Full Blog Post**: If you're eager to get started, dive right into the full blog post: [Setting up a Continuous Deployment Pipeline on AWS](link_to_blog_post) that details each step with illustrations and additional tips.
 
----
 
 This project is designed to streamline your development process, ensuring code consistency and reliability. By automating routine tasks, you'll have more time to focus on building exceptional applications.
 
-Feel free to reach out if you have any questions or need further assistance. Happy coding! 🛠️
-
----
-
-*Author: [Kevin Kiruri](https://www.linkedin.com/in/kevin-kiruri/)*

@@ -1,8 +1,7 @@
 # AWS Streaming Data Guide
 
 **Introduction:**
-Welcome to the guide on how to set up data streams on AWS. This README provides an overview of the steps detailed in the blog titled [Build a Real Time Data Streaming System with Amazon Kinesis Data Streams](https://medium.com/@kevinkiruri/build-a-real-time-data-streaming-system-with-amazon-kinesis-data-streams-08d62301d1cd), authored by [Kevin Kiruri](https://www.linkedin.com/in/kevin-kiruri/).
-
+Welcome to the guide on how to set up data streams on AWS. 
 **Steps:**
 
 1. **Create Kinesis Data Stream:**
@@ -17,6 +16,3 @@ Welcome to the guide on how to set up data streams on AWS. This README provides 
 **Clean Up:**
    - Delete Kinesis stream, S3 file, bucket, Lambda functions, role, and policy.
 
----
-
-*Author: [Kevin Kiruri](https://www.linkedin.com/in/kevin-kiruri/)*

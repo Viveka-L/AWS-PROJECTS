@@ -73,13 +73,7 @@ terraform destroy
 
 4. To destroy the resources when they are no longer needed, run `terraform destroy`.
 
-## Additional Resources
 
-- [Terraform Documentation](https://www.terraform.io/docs/index.html): The official Terraform documentation is a comprehensive resource for learning more about Terraform and its features.
-
-- [Terraform Providers](https://registry.terraform.io/browse/providers): The Terraform Provider Registry contains documentation and examples for various cloud and infrastructure providers.
-
-- [Terraform Community](https://community.hashicorp.com/c/terraform/7): Join the Terraform community forum to ask questions and share your experiences with Terraform.
 
 ## Conclusion
 

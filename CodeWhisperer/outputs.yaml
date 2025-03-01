@@ -17,16 +17,16 @@ Parameters:
   EnvironmentType:
     Description: Specify the Environment type of the stack.
     Type: String
+    Default: Test
     AllowedValues:
       - Dev
       - Test
       - Prod
-    Default: Test
     ConstraintDescription: Specify either Dev, Test or Prod.
 
   AmiID:
-    Description: The ID of the AMI.
     Type: AWS::EC2::Image::Id
+    Description: The ID of the AMI.
 
 Mappings:
   EnvironmentToInstanceType:
@@ -45,19 +45,6 @@ Resources:
       InstanceType: !FindInMap [EnvironmentToInstanceType, !Ref EnvironmentType, InstanceType]
       Tags:
         - Key: Name
-          Value: !Join ['-', [!Ref EnvironmentType, webserver]]
+          Value: !Join [ '-', [ !Ref EnvironmentType, webserver ] ]
 
-  WebServerEIP:
-    Type: AWS::EC2::EIP
-    Properties:
-      Domain: vpc
-      InstanceId: !Ref WebServerInstance
-
-Outputs:
-  WebServerPublicDNS:
-    Description: Public DNS of EC2 instance
-    Value: !GetAtt WebServerInstance.PublicDnsName
-
-  WebServerElasticIP:
-    Description: Elastic IP assigned to EC2
-    Value: !Ref WebServerEIP
+# Add your code here!

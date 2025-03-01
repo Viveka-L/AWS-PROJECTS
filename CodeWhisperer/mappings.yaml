@@ -6,43 +6,41 @@ Metadata:
   AWS::CloudFormation::Interface:
     ParameterGroups:
       - Label:
-          default: Amazon EC2 Configuration
+          default: 'Amazon EC2 Configuration'
         Parameters:
+          # Remove InstanceType group.
+          - InstanceType
           - AmiID
     ParameterLabels:
+      # Remove the InstanceType parameter label.
+      InstanceType:
+        default: 'Type of EC2 Instance'
       AmiID:
-        default: Amazon Machine Image ID
+        default: 'Amazon Machine Image ID'
 
 Parameters:
-  EnvironmentType:
-    Description: Specify the Environment type of the stack.
+  # Replace the InstanceType parameter with EnvironmentType parameter.
+  InstanceType:
     Type: String
+    Default: t2.micro
     AllowedValues:
-      - Dev
-      - Test
-      - Prod
-    Default: Test
-    ConstraintDescription: Specify either Dev, Test or Prod.
+      - t2.micro
+      - t2.small
+    Description: 'Enter t2.micro or t2.small. Default is t2.micro.'
 
   AmiID:
-    Description: The ID of the AMI.
     Type: AWS::EC2::Image::Id
+    Description: 'The ID of the AMI.'
 
-Mappings:
-  EnvironmentToInstanceType:
-    Dev:
-      InstanceType: t2.nano
-    Test:
-      InstanceType: t2.micro
-    Prod:
-      InstanceType: t2.small
+# Add a Mappings section here!
 
 Resources:
   WebServerInstance:
     Type: AWS::EC2::Instance
     Properties:
       ImageId: !Ref AmiID
-      InstanceType: !FindInMap [EnvironmentToInstanceType, !Ref EnvironmentType, InstanceType]
+      # Update the 'InstanceType' property with !FindInMap function
+      InstanceType: !Ref InstanceType
       Tags:
         - Key: Name
-          Value: !Join ['-', [!Ref EnvironmentType, webserver]]
+          Value: !Join [ '-', [ !Ref InstanceType, webserver ] ] # replace the 'InstanceType' with 'EnvironmentType'

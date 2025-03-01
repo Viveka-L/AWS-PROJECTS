@@ -1,1 +1,5 @@
-Flask==2.0.2
+awscli
+boto3
+bump2version
+cfn_lint
+pre-commit

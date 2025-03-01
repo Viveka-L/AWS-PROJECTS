@@ -1,8 +1,7 @@
 # Event-Driven Architecture with AWS: A Guide
 
 **Introduction:**
-Welcome to the guide on how to set up an event-driven architecture on AWS. This README provides an overview of the steps detailed in the blog titled [AWS Event-Driven Architecture](https://medium.com/@kevinkiruri/aws-event-driven-architecture-098db8bee1b0), authored by [Kevin Kiruri](https://www.linkedin.com/in/kevin-kiruri/).
-
+Welcome to the guide on how to set up an event-driven architecture on AWS. 
 ## Steps
 1. Create an S3 Bucket
 2. Create an SNS Topic
@@ -28,6 +27,3 @@ Welcome to the guide on how to set up an event-driven architecture on AWS. This 
 
 Embrace Event-Driven Architecture on AWS for automating actions triggered by events. This guide illustrates the power of Amazon S3, AWS Lambda, and Simple Notification Service (SNS). By understanding this approach, you empower your systems to respond and adapt efficiently, making them smarter and faster. Event-Driven Architecture is your system's superpower, allowing it to intelligently respond to changes.
 
----
-
-*Author: [Kevin Kiruri](https://www.linkedin.com/in/kevin-kiruri/)*
